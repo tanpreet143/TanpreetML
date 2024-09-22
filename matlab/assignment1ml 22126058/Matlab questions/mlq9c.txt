@@ -1,0 +1,18 @@
+Curve Fitting Inferences:
+
+Linear Fit:
+
+The linear fit should closely match the data points if the noise is small and the relationship between x and y is predominantly linear.
+The slope of the linear fit should be close to the value of 
+𝑅
+R, which is 26 in this case. If the fit is not close to 
+𝑅
+R, consider adjusting the data or the model.
+Polynomial Fit:
+
+A polynomial fit (e.g., quadratic) can capture more complex relationships between x and y. It can model curvature in the data that a linear fit might miss.
+Comparing the polynomial fit to the linear fit can show whether a polynomial is needed. If the polynomial fit significantly improves the model's accuracy or fits the data better, a polynomial might be more appropriate.
+Model Selection:
+
+Use metrics such as R-squared, residuals, and cross-validation to evaluate the fit. The linear model might be sufficient for simpler data, while polynomial fits are better for capturing more complex patterns.
+Beware of overfitting when using higher-degree polynomials. A polynomial that fits the training data too well might not generalize well to new data.
